@@ -6,7 +6,7 @@ const http = require('http');
 
 const server = http.createServer(service);
 
-const slackToken = 'xoxp-366849263350-367004545223-367036535783-51a1fe966e992ede688760c9635adfec';
+const slackToken = 'your token here';
 const rtm = slackClient.init(slackToken);
 rtm.start();
 
