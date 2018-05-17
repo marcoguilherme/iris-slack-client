@@ -1,7 +1,7 @@
 const { RTMClient } = require('@slack/client');
 
 function handleOnAuthenticated(rtmStartData){
-    console.log(`Logged in as ${rtmStartData.self.name} of theam ${rtmStartData.team.name}, but not yet connected to the channel`)
+    console.log(`Logged in as ${rtmStartData.self.name} of team ${rtmStartData.team.name}, but not yet connected to the channel`)
 }
 
 function addAuthenticatedHandler(rtm, handler){
